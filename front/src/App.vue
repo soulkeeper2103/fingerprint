@@ -52,8 +52,8 @@ export default {
               this.data = {
                   cpus: navigator.hardwareConcurrency,
                   languages: c[2].value,
-                  winy: window.screen.availHeight,
-                  winx: window.screen.availWidth,
+                  winy: c[6].value[1],
+                  winx: c[6].value[0],
                   webgl: c[19].value,
                   colordepth: c[3].value,
                   ip: ip
